@@ -6,7 +6,7 @@ import io
 import google.generativeai as genai
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyAcHnynVSy4ZqIPAb8T4tD1H_kegTaxb9U")
+genai.configure(api_key="your_api_key")
 
 # Function to extract text & formulas from PDF
 def extract_text_and_formulas_from_pdf(uploaded_file):
